@@ -1,0 +1,313 @@
+/* ----------- Body ----------- */
+body {
+  font-family:Poppins, sans-serif;
+}
+
+/* ----------- Container ----------- */
+.container-fluid, .container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* ------------Navbar-------------- */
+#navbar {
+  text-align:vertical;
+}
+
+hr {
+  width:100%;
+}
+
+/* ------------Hero-------------- */
+#hero {
+  align-items: center;
+  margin-top:50px;
+}
+
+.hero-date {
+  color:grey;
+  font-size:0.9em;
+}
+
+.btn-lg {
+  border:none;
+  width:50%;
+  background-image: linear-gradient(rgb(218, 15, 99), rgb(184, 7, 169));
+}
+
+.promo-text h3 {
+  font-size:1.5em;
+}
+
+.promo-text {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero {
+    margin-top:75px;
+  }
+  .hero-text{
+    padding-right: 100px;
+  }
+}
+
+
+
+
+
+/* ------------News-------------- */
+
+#highlighted-news {
+  padding-top: 10px;
+  background-color: rgb(22, 22, 22);
+}
+
+.image-news {
+  width:85px;
+  height:85px;
+  object-fit: cover;
+  margin-right:10px;
+}
+
+@media (max-width: 767px) {
+  .image-news {
+    width:144px;
+    height:144px;
+  }
+}
+
+.scrollable-news-title {
+  color:#ddd;
+}
+
+.scrollable-news-date {
+  font-size:12px;
+  color:rgb(197, 194, 194);
+}
+
+#news {
+  margin-top: 87px;
+  margin-bottom: 27px;
+}
+
+#news h2 {
+  font-size: 1.5em;
+  font-weight:600;
+}
+
+#news .fab {
+  display:inline-block;
+}
+
+.travel-text{
+  color:white;
+}
+
+.news-image {
+  padding-right: 10px;
+}
+
+.follow-us {
+  padding-top:30px;
+}
+
+.date-news {
+  font-size:0.8em;
+  color:grey;
+}
+
+.latest-news {
+  padding-bottom: 10px;
+}
+
+.article-box {
+  padding-bottom:20px;
+}
+
+.post-teaser {
+  font-size: 18px;
+  line-height: 1.33333;
+  font-weight:700;
+}
+
+.article-teaser-date {
+  font-size: 14px;
+    line-height: 1.28571;
+    margin-top: 4px;
+    color: #717171;
+}
+
+@media (min-width: 992px) {
+  .follow-us {
+    border-left: 1px solid rgb(228, 228, 228);
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-teaser {
+    font-size: 14px;
+  }
+  
+  .article-teaser-date {
+      font-size: 12px;
+  }
+
+  .article-box {
+    padding-bottom:0px;
+  }
+}
+
+@media (max-width:991px) {
+  .news-article-summary {
+    font-size:14px;
+  }
+  .date-news {
+    font-size:12px;
+  }
+  #highlighted-news {
+    margin-top: 100px;
+  }
+}
+
+
+/* ------------Highlighted News-------------- */
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+
+.scrollableRow {
+  overflow-x: scroll;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.scrollableRow > [class*=col-] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.future-travel-text {
+  margin: 70px 0 20px 0;
+}
+
+.newsletter-signup {
+  display: flex;
+  height:100%;
+  color:white;
+  background-color: black;
+  text-align: center;
+}
+
+.newsletter-inner {
+  max-width: 400px;
+  margin: auto;
+}
+
+@media (max-width:991px) {
+  .newsletter-inner {
+    max-width: 600px;
+  }
+  .newsletter-signup {
+    margin-bottom:80px;
+  }
+}
+
+.newsletter-title {
+  font-size: 26px;
+  line-height: 1.15385;
+  font-weight:700;
+  padding:20px 0;
+}
+
+.newsletter-inner-text {
+  padding-bottom:20px;
+}
+
+.newsletter-inner .btn-lg {
+  background-color:#bd006e;
+}
+
+.categories {
+  padding:70px 0 40px 0;
+}
+
+.category-header {
+  padding-bottom:15px;
+}
+
+.category-header .btn {
+  padding-right: 15px;
+}
+
+
+/* ------------Footer-------------- */
+
+.site-footer {
+  font-size: 14px;
+  padding-top: 48px;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.footer-column-title {
+  font-size: 12px;
+  line-height: 1.33333;
+  font-weight: 600;
+  text-transform: uppercase
+}
+
+.menu-item {
+  line-height: 1.28571;
+  margin-top: 16px;
+}
+
+.disclaimer {
+  font-weight: 600;
+  text-transform: uppercase
+}
+
+.top-footer-section {
+  border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 768px) and (max-width: 1199px)
+{
+  .footer-nav-column {
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1199px) {
+  .footer-column-section {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .footer-column-section:not(:first-child) {
+    padding-top:15px;
+  }
+}
+
+.menu-item {
+  flex-basis: 33.3333333%;
+}
+
+.copyright-section {
+  padding: 0 10px;
+}
+
+.footer-copyright {
+  padding: 20px 0;
+}
